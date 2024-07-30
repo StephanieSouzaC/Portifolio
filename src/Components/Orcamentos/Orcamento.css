@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Glitch';
+    src: url('/public/fonts/GlitchGoblin-2O87v.ttf');
+}
+
+:root{
+    -cor1: rgb(20, 0, 255);
+    -cor2: rgb(99, 0, 255);
+    -cor3: rgb(105, 0, 255);
+    -cor4: rgb(189, 0, 255);
+    -cor5: rgb(202, 68, 249);
+    -cor6: rgb(202, 68, 249);
+}
+
+.orcamento__form-container {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1.25em;
+    max-width: 100%;
+    padding: 20px;
+  }
+  
+  .orcamento__form-titulo {
+    font-family: 'Glitch';
+    font-size: 3rem;
+    color: #00FFF0;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  .orcamento__form-subtitulo {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 0.75em;
+  }
+  
+  .orcamento__form-texto {
+    font-size: 1.25rem;
+    text-align: center;
+    padding-bottom: 0.65em;
+  }
+
+  .orcamento__form-and-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em 2em;
+  }
+  
+  .orcamento__form{
+    width: 55%;
+    margin-left: 2em;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 37em;
+    background: linear-gradient(136deg, rgb(20, 0, 255), rgb(99, 0, 255), rgb(105, 0, 255), rgb(189, 0, 255), rgb(202, 68, 249), rgb(202, 68, 249));
+    border-radius: 30px;
+    padding: 3em;
+  }
+  
+  .orcamento__form-group {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 1em 0.5em 0em 0.5em;
+    padding: 0.2em;
+  }
+  
+  .orcamento__form-input{
+    background-color: rgb(255, 255, 255, 0.3);
+    border: 2px solid #00FFF0;
+    border-radius: 15px;
+    padding: 0.8em;
+    color: #0a0000;
+    font-size: 1rem;
+    margin-bottom: 0.8em;
+    width: 100%;
+  }
+  
+
+  .orcamento__form-campo{ 
+    justify-content: space-around;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-right: 0.5em;
+  }
+
+  .orcamento__form-label{
+    font-size: 1.25em;
+  }
+  
+  input[type="tel"], input[type="email"] {
+    width: 100%;
+  }
+  
+  textarea {
+    max-width: 90%;
+    height: 20em;
+  }
+  
+  button {
+    background-color: rgb(255, 255, 255, 0.3);
+    border: solid, 2px, #00FFF0;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 0.8em 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.25em;
+  }
+  
+  button:hover {
+    background-color: rgba(4, 0, 255, 0.3);
+  }
+
+  .orcamento__form-img{
+    width: 40%;
+    height: 30%;
+    padding-right: 1em ;
+    margin-left: 1em;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (min-width: 870px) and (max-width: 1120px) {
+    .orcamento__form-img{
+        width: 40%;
+        padding-right: 0;
+        margin-left: 0;
+    }
+    .orcamento__form-img img{
+        width: 90%;
+        margin: 0em;
+        padding: 0;
+    }
+    .orcamento__form{
+        width: 65%;
+        margin-left: 0;
+        height: auto;
+    }
+
+  }
+
+  @media (max-width: 870px ) {
+
+    .orcamento__form-and-img{
+      display: flex;
+      align-items: center;
+    }
+    .orcamento__form{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+        height: 100%;
+    }
+
+    form{
+        width: 100%;
+        height: 100%;
+        padding: 1em;
+    }
+    .orcamento__form-group{ 
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-right: 0.5em;
+        width: 100%;
+        margin-top: 0.15em;
+      }
+      .orcamento__form-campo{
+        width: 95%;
+      }
+
+      .orcamento__form-input{
+        width: 100%;
+      }
+
+      .orcamento__form-and-img{
+        display: block;
+      }
+
+      .orcamento__form-img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        padding-left: 0em;
+      }
+      .orcamento__form-img img{
+        max-width: 50%;
+        height: auto;
+      }
+
+      textarea{
+        max-width: 95%;
+        margin-left: 0.8em;
+        margin-right: 1.5em;
+      }
+
+  }

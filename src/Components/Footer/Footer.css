@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Glitch&display=swap');
+
+:root{
+    --font: 'Poppins';
+    --font-color: #FFFFFF;
+}
+
+.footer__conteiner-footer{
+    background: linear-gradient(136deg, rgb(20, 0, 255), rgb(189, 0, 255), rgb(94, 0, 128), rgb(0, 0, 0));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: var(--font) ;
+    color: var(--font-color);
+    padding: 1.25em;
+    max-width: 100%;
+}
+
+.footer__logo img {
+    width: 6.25em;
+    height: 6.25rem;
+}
+
+.footer__copyright {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer__contatos{
+    text-align: right;
+}
+
+.footer__contatos-titulo-footer{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer__contatos-infos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75em;
+}
+
+.footer__contatos-img {
+    width: 1.875em;
+    height: 1.875em;
+    margin-right: 0.5em;
+}
+
+.footer__contatos-texto {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.footer__contatos-link{
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 0.65em;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .footer__conteiner-footer {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .footer__contatos {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .footer__contatos-infos {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__conteiner-footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 1em 0;
+    }
+
+    .footer__contatos {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer__contatos-titulo-footer p {
+        font-size: 1rem;
+    }
+
+    .footer__contatos-infos {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .footer__contatos-img {
+        width: 1.25em;
+        height: 1.25em;
+    }
+
+    .footer__contatos-texto {
+        font-size: 0.8rem;
+    }
+
+    .footer__copyright {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

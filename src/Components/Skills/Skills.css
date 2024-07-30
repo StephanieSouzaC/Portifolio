@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Glitch';
+    src: url('/public/fonts/GlitchGoblin-2O87v.ttf');
+}
+
+:root {
+    -cor1: rgb(20, 0, 255);
+    -cor2: rgb(99, 0, 255);
+    -cor3: rgb(105, 0, 255);
+    -cor4: rgb(189, 0, 255);
+    -cor5: rgb(202, 68, 249);
+    -cor6: rgb(202, 68, 249);
+}
+
+.skills__container {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    padding: 1.25em;
+    max-width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.skills__titulo {
+    font-family: 'Glitch';
+    font-size: 3rem;
+    color: #00FFF0;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.skills__texto {
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.slider__container {
+    max-width: 70vh;
+    background-color: #000000;
+    padding: 3em;
+    margin-left: 1em;
+    border-radius: 30px;
+}
+
+.skill__card-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.skill__card-conteiner p{
+    margin-top: 0.8em;
+}
+
+
+.skills__img-and-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em 2em;
+}
+
+
+.skills__img-img {
+    width: 40%;
+    height: 30%;
+    padding-right: 1em;
+    margin-left: 1em;
+    display: flex;
+    justify-content: center;
+}
