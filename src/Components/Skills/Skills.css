@@ -27,7 +27,8 @@
     font-size: 3rem;
     color: #00FFF0;
     text-align: center;
-    padding: 1em 0;
+    margin-top: 1em;
+    margin-bottom: 0;
 }
 
 .skills__texto {
@@ -37,11 +38,13 @@
 }
 
 .slider__container {
-    max-width: 70vh;
+    max-width: 100vh;
     background-color: #000000;
     padding: 3em;
     margin-left: 1em;
     border-radius: 30px;
+    margin-top: 1em;
+    margin-right: 1.5em;
 }
 
 .skill__card-conteiner {
@@ -60,16 +63,120 @@
 .skills__img-and-carousel {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 1em 2em;
+    justify-content: space-evenly;
+    margin: 0em 2em 1em 2em;
+    max-width: 100%;
 }
 
 
 .skills__img-img {
-    width: 40%;
-    height: 30%;
-    padding-right: 1em;
+    max-width: 100%;
+    height: auto;
     margin-left: 1em;
     display: flex;
     justify-content: center;
+}
+
+.skills__img-img img {
+    width: 100%;
+}
+
+.skills__link{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.skills__texto-and-links{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (min-width: 980px) and (max-width: 1280px) {
+    .slider__container {
+        max-width: 70vh;
+        margin-top: 1.5em;
+        margin-right: 0.7em;
+    }
+
+    .skills__img-img {
+        max-width: 50%;
+        height: auto;
+        margin-left: 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills__texto-and-links{
+        max-width: 80%;
+    }
+
+    .skills__texto{
+        padding-top: 0.8em;
+    }
+
+}
+
+@media (min-width: 870px) and (max-width: 980px) {
+    .slider__container {
+        max-width: 55vh;
+        margin-top: 1.5em;
+        margin-right: 0.7em;
+    }
+
+    .skills__img-img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills__texto-and-links{
+        max-width: 75%;
+    }
+
+    .skills__texto{
+        padding-top: 0.8em;
+    }
+
+}
+
+@media (max-width: 870px){
+
+    .skills__img-and-carousel {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .slider__container {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+
+
+    .skills__img-img {
+        max-width: 75%;
+        height: 40%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .skills__img-img img{
+        width: 82%;
+        height: 40%;
+        margin: auto;
+    }
+
+    .skills__texto-and-links{
+        max-width: 80%;
+    }
+
+    .skills__texto{
+        padding-top: 1.5em;
+    }
+
 }

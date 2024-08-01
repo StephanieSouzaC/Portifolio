@@ -1,6 +1,5 @@
 import React from 'react'
 import './Skills.css'
-import Carousel from '../SkillsCarossel/SkillsCarrossel.js';
 import Slider from "react-slick";
 
 const itens = [
@@ -66,14 +65,14 @@ let settings = {
   variableWidth: true,
   adaptiveHeight: true,
   slidesToShow: 3,
-  slidesToScroll: 1,
+  slidesToScroll: 2,
   initialSlide: 0,
   responsive: [
     {
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         infinite: true,
         dots: true
       }
@@ -119,18 +118,31 @@ const Skills = () => {
                 }
               </Slider>
             </div>
-            <div className='skills__texto'>
+          </div>
+        </div>
+      </div>
+      <div className='skills__texto-and-links'>
+          <div className='skills__texto'>
             <p>
               Estou sempre em busca de novos desafios e oportunidades para colaborar.
               Se você tem um projeto em mente, vamos tirá-lo do papel?
             </p>
-            </div>
           </div>
-        </div>
-      </div>
-      </div>
-    )
-    }
+          <div className='skills__link'>
+          <a className='skills__link-link' href='https://github.com/StephanieSouzaC/'> 
+          <img src='/images/Github.png' alt='Logo Github'></img>
+          </a>
+          <a className='skills__link-link' href=''> 
+          <img src='/images/CV.png' alt='Currículo Vitae'></img>
+          </a>
+          <a className='skills__link-link' href='https://www.linkedin.com/in/stephanie-souza-83a18b239/'> 
+          <img src='/images/LinkedIn.png' alt='Logo LinkedIn'></img>
+          </a>
+          </div>
+          </div>
+    </div>
+  )
+}
 
-      export default Skills
+export default Skills
 
