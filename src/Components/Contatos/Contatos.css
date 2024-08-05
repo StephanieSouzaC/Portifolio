@@ -15,9 +15,9 @@
     padding: 1.25em;
     max-width: 100%;
 }
-.contatos__contatos-titulo{
+.contatos__contatos-titulo h2{
     font-family: 'Glitch';
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: #00FFF0;
     text-align: center;
     padding: 1em 0;

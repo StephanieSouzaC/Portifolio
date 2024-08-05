@@ -24,7 +24,7 @@
 
 .skills__titulo {
     font-family: 'Glitch';
-    font-size: 3rem;
+    font-size: 2.8rem;
     color: #00FFF0;
     text-align: center;
     margin-top: 1em;
@@ -34,7 +34,7 @@
 .skills__texto {
     font-size: 1.25rem;
     text-align: center;
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 .slider__container {

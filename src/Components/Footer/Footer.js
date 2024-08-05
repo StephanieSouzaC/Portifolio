@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
             <div className='footer__contatos-infos'>
                 <img className='footer__contatos-img' src='/images/Email.png' alt='email'/>
-                <p className='footer__contatos-texto'>stephanie.dev03@gmail.com</p>
+                <p className='footer__contatos-texto'>stephanie.dev01@gmail.com</p>
             </div>
             <a className='footer__contatos-link' href='https://www.linkedin.com/in/stephanie-souza-83a18b239/'> 
             <div className='footer__contatos-infos'>
