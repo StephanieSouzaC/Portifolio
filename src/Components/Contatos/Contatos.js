@@ -74,7 +74,7 @@ import {
                         <div className='contatos__contatos-infos-card-img-email'>
                             <img src='/images/Email.png' alt='Email'></img>
                             <div className='contatos__contatos-infos-card-texto'>
-                                <p>stephanie.dev01@gmail.com</p>
+                                <p>stephanie.dev03@gmail.com</p>
                             </div>
                         </div>
                     </div>
