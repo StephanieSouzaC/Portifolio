@@ -130,7 +130,7 @@ const Skills = () => {
           </div>
           <div className='skills__link'>
           <a className='skills__link-link' href='https://github.com/StephanieSouzaC/'> 
-          <img src='/images/Github.png' alt='Logo Github'></img>
+          <img src='/images/GitHub.png' alt='Logo Github'></img>
           </a>
           <a className='skills__link-link' href=''> 
           <img src='/images/CV.png' alt='Currículo Vitae'></img>
