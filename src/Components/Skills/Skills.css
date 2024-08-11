@@ -18,7 +18,6 @@
     padding: 1.25em;
     max-width: 100%;
     padding: 20px;
-    min-height: 100vh;
     overflow: hidden;
 }
 
@@ -118,6 +117,10 @@
         padding-top: 0.8em;
     }
 
+    .skills__link-link img {
+        width: 92%;
+    }
+
 }
 
 @media (min-width: 870px) and (max-width: 980px) {
@@ -141,6 +144,10 @@
 
     .skills__texto{
         padding-top: 0.8em;
+    }
+
+    .skills__link-link img {
+        width: 90%;
     }
 
 }
@@ -177,6 +184,10 @@
 
     .skills__texto{
         padding-top: 1.5em;
+    }
+
+    .skills__link-link img {
+        width:85%;
     }
 
 }

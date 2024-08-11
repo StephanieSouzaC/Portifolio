@@ -51,7 +51,7 @@ import {
                 <div className='contatos__contatos-infos-card'>
                     <div className='contatos__contatos-infos-card-line'>
                         <div className='contatos__contatos-infos-card-img'>
-                            <a className='contatos__contatos-link' href='https://www.linkedin.com/in/stephanie-souza-83a18b239/'> 
+                            <a className='contatos__contatos-link' href='https://www.linkedin.com/in/stephanie-souza-83a18b239/' target="__blank"> 
                             <img src='/images/LinkedIn.png' alt='Logo LinkedIn'></img>
                             <div className='contatos__contatos-infos-card-texto'>
                                 <p>LinkedIn</p>
@@ -61,7 +61,7 @@ import {
                     </div>
                     <div className='contatos__contatos-infos-card-line'>
                         <div className='contatos__contatos-infos-card-img'>
-                    <Nav.Link id='contatos_navLink' href="#form" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>
+                    <Nav.Link id='contatos_navLink' href="#formOrcamento" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>
                         <img src='/images/Form.png' alt='Formulário'>
                         </img>
                                 <div className='contatos__contatos-infos-card-texto'>

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './Orcamento.css';
 import emailjs from '@emailjs/browser';
+import Modal from "react-modal";
 
+Modal.setAppElement("#root");
 
 const Orcamentos = () => {
     const [nome, setNome] = useState('');
@@ -9,9 +11,18 @@ const Orcamentos = () => {
     const [email, setEmail] =useState('');
     const [telefone, setTelefone] = useState('');
     const [mensagem, setMensagem] = useState('');
+    const [modalIsOpen, setIsOpen] = useState(false);
     const idService = process.env.REACT_APP_ID_SERVICE;
     const idTamplete = process.env.REACT_APP_ID_TEMPLATE;
     const chavePublica = process.env.REACT_APP_CHAVE_PUBLICA;
+    
+    function openModal(){
+        setIsOpen(true);
+    }
+
+    function closeModal(){
+        setIsOpen(false);
+    }
 
     function sendEmail(e){
         e.preventDefault();
@@ -26,21 +37,31 @@ const Orcamentos = () => {
 
         emailjs.send(idService, idTamplete, templateParams, chavePublica)
         .then((response)=>{
-            alert("Email Enviado", response.status, response.text)
+            // <Modal
+            //         isOpen={modalIsOpen}
+            //         onRequestClose={closeModal}
+            //         contentLabel='Mensagem enviada'
+            //         overlayClassName="modal-overlay"
+            //         className="modal-content"
+            //         >
+            //             <h3>Sua mensagem foi enviada com sucesso!</h3>
+            //             <button onClick={closeModal}>Fechar</button>
+            // </Modal>
+            alert("Mensagem enviada com sucesso!", response)
             setNome ('')
             setSobrenome('')
             setEmail('')
             setTelefone('')
             setMensagem('')
         }, (err) => {
-            console.log("Erro ao enviar", err)
+            alert("Erro ao enviar", err)
         })
     }
     
     return (
 
-        <div className="orcamento__form-container">
-            <h2 className='orcamento__form-titulo' id='form'>Orçamento</h2>
+        <div className="orcamento__form-container" id='formOrcamento'>
+            <h2 className='orcamento__form-titulo'>Orçamento</h2>
             <h3 className='orcamento__form-subtitulo'>Vamos Trabalhar Juntos?</h3>
             <p className='orcamento__form-texto'>
                 Estou sempre em busca de novos desafios e oportunidades para colaborar.
@@ -109,7 +130,17 @@ const Orcamentos = () => {
                         value={mensagem}
                         required
                     />
-                    <button className="orcamento__form-button" type="submit">Enviar</button>
+                    <button className="orcamento__form-button" type="submit" onClick={openModal}>Enviar</button>
+                    <Modal
+                    isOpen={modalIsOpen}
+                    onRequestClose={closeModal}
+                    contentLabel='Mensagem enviada'
+                    overlayClassName="modal-overlay"
+                    className="modal-content"
+                    >
+                        <h3>Sua mensagem foi enviada com sucesso!</h3>
+                        <button onClick={closeModal}>Fechar</button>
+            </Modal>
                 </form>
                 </div>
                 <div className="orcamento__form-img">

@@ -127,6 +127,30 @@
     justify-content: center;
   }
 
+  .modal-overlay{
+    background: linear-gradient(136deg, rgb(20, 0, 255), rgb(99, 0, 255), rgb(105, 0, 255), rgb(189, 0, 255), rgb(202, 68, 249), rgb(202, 68, 249));
+    position: fixed;
+    top:20em;
+    bottom: 20em;
+    right: 0em;
+    left: 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 3em;
+    border-radius: 30px;
+    margin: 0 auto;
+  }
+
+  .modal-overlay button{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+  }
   @media (min-width: 870px) and (max-width: 1120px) {
     .orcamento__form-img{
         width: 40%;
@@ -142,6 +166,10 @@
         width: 65%;
         margin-left: 0;
         height: auto;
+    }
+
+    .modal-overlay{
+      width: 45%;
     }
 
   }
@@ -204,6 +232,10 @@
         max-width: 95%;
         margin-left: 0.8em;
         margin-right: 1.5em;
+      }
+
+      .modal-overlay{
+        width: 75%;
       }
 
   }

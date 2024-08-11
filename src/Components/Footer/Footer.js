@@ -45,14 +45,14 @@ const Footer = () => {
                 <img className='footer__contatos-img' src='/images/Email.png' alt='email'/>
                 <p className='footer__contatos-texto'>stephanie.dev03@gmail.com</p>
             </div>
-            <a className='footer__contatos-link' href='https://www.linkedin.com/in/stephanie-souza-83a18b239/'> 
+            <a className='footer__contatos-link' href='https://www.linkedin.com/in/stephanie-souza-83a18b239/' target="__blank"> 
             <div className='footer__contatos-infos'>
                 <img className='footer__contatos-img' src='/images/LinkedIn.png' alt='Logo LinkedIn'/>
                 <p className='footer__contatos-texto'>LinkedIn</p>
             </div>
             </a>
 
-            <Nav.Link href="#form" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>
+            <Nav.Link href="#formOrcamento" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>
             <div className='footer__contatos-infos'>
                 <img className='footer__contatos-img' src='/images/Form.png' alt='formulário'/>
                 <p className='footer__contatos-texto'>Formulário</p>

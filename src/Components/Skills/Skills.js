@@ -98,7 +98,7 @@ let settings = {
 
 const Skills = () => {
   return (
-    <div className="skills__container">
+    <div className="skills__container" id='Skills'>
       <h2 className='skills__titulo' id='form'>Skills</h2>
       <div className="skills__img-and-carousel">
         <div className="skills__img-img">
@@ -129,13 +129,13 @@ const Skills = () => {
             </p>
           </div>
           <div className='skills__link'>
-          <a className='skills__link-link' href='https://github.com/StephanieSouzaC/'> 
+          <a className='skills__link-link' href='https://github.com/StephanieSouzaC/' target="__blank"> 
           <img src='/images/GitHub.png' alt='Logo Github'></img>
           </a>
-          <a className='skills__link-link' href=''> 
+          <a className='skills__link-link' href='https://drive.google.com/file/d/1JYy4Lyto38Q9WrU_wkLZcoStPMr5fDaG/view?usp=sharing' target='_blank'> 
           <img src='/images/CV.png' alt='Currículo Vitae'></img>
           </a>
-          <a className='skills__link-link' href='https://www.linkedin.com/in/stephanie-souza-83a18b239/'> 
+          <a className='skills__link-link' href='https://www.linkedin.com/in/stephanie-souza-83a18b239/' target="__blank"> 
           <img src='/images/LinkedIn.png' alt='Logo LinkedIn'></img>
           </a>
           </div>
