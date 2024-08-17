@@ -91,6 +91,7 @@ npm start
 - [React](https://legacy.reactjs.org/docs/getting-started.html)
 - [React Bootstrap](https://react-bootstrap.netlify.app/docs/components/accordion)
 - [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [EmailJs](https://www.emailjs.com/docs/)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
