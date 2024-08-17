@@ -37,7 +37,7 @@ export const NavBar = () => {
             <img src="images/logoSite.png" alt="Logo" className="navBar__logo"/>
           </Navbar.Brand>
           <Navbar.Toggle className="navBar__menu">
-            <span><img src="/images/menu.png" className="navBar__menu-img"></img></span>
+            <span><img src="/images/Menu.png" className="navBar__menu-img"></img></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

@@ -137,10 +137,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 37%;
     padding: 3em;
     border-radius: 30px;
     margin: 0 auto;
+    height: 35%;
+    text-align: center;
+    border: solid, 2px, #00FFF0;
   }
 
   .modal-overlay button{
@@ -168,9 +171,11 @@
         height: auto;
     }
 
-    .modal-overlay{
-      width: 45%;
-    }
+      .modal-overlay{
+        width: 37%;
+        height: 30%;
+        text-align: center;
+      }
 
   }
 
@@ -236,6 +241,8 @@
 
       .modal-overlay{
         width: 75%;
+        height: 30%;
+        text-align: center;
       }
 
   }
