@@ -20,9 +20,9 @@
 
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-:small_blue_diamond: [Link para acesso ao site](#link-para-acesso-ao-site-computer)
+:small_blue_diamond: [Link para acesso ao site](#como-rodar-a-aplicação-web-computer)
 
-:small_blue_diamond: [Como rodar a Aplicação Web](#como-rodar-a-aplicação-web-computer)
+:small_blue_diamond: [Como rodar a Aplicação Web](#como-rodar-a-aplicação-web-computer-1)
 
 :small_blue_diamond: [Layout da Aplicação](#layout-da-aplicação-computer)
 
@@ -52,7 +52,7 @@ Projeto desenvolvido como portifólio pessoal, utilizando as tecnologias React, 
 
 ## Como rodar a Aplicação Web :computer:
 - Para acesso ao site clique no link: [Portifólio](https://portifolio-stephanie.vercel.app/)
-- Ou copie o link https://portifolio-stephanie.vercel.app/
+- Ou copie o link: https://portifolio-stephanie.vercel.app/
  <p></p>
   
 ## Como rodar a Aplicação Web :computer:
@@ -70,6 +70,8 @@ npm start
 <p></p>
 
 ## Layout da Aplicação :computer:
+- Para acesso ao protótipo do figma acesse ao link: [Protótipo](https://www.figma.com/proto/OFgi3sqo0o5e153qjp8WjN/Portif%C3%B3lio-Stephanie-Souza?node-id=35-633&starting-point-node-id=35%3A633)
+
 > Home
 <img src="https://github.com/user-attachments/assets/39b6bc4d-8454-497d-9802-3bd2b84442c1" alt="Home page"/>
 
@@ -82,8 +84,7 @@ npm start
 > Contato
 <img src="https://github.com/user-attachments/assets/8b9ee2f5-1ead-4c7a-bbe9-ffd27c22d78d" alt="Contato"/>
 
-> Contato
-<img src="https://github.com/user-attachments/assets/8b9ee2f5-1ead-4c7a-bbe9-ffd27c22d78d" alt="Contato"/>
+<p></p>
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
@@ -93,8 +94,7 @@ npm start
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Cors](https://www.npmjs.com/package/cors)
 
 ## Desenvolvedora :octocat:
 
-[<img src="https://github.com/StephanieSouzaC.png" width=200><br><p>Stephanie Souza</p>](https://www.linkedin.com/in/stephanie-souza-83a18b239/)
+[<img src="https://github.com/StephanieSouzaC.png" width=200><br><p>Stephanie Souza</p><br><p>Desenvolvedora e Designer</p>](https://www.linkedin.com/in/stephanie-souza-83a18b239/)
