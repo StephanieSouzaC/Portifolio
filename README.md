@@ -1,71 +1,100 @@
-# Getting Started with Create React App
+<h1 aling="center">
+<img src="https://github.com/user-attachments/assets/939c45ef-44cf-4a5a-9e3a-ac86b48c8802" width=100>  Portifólio - Stephanie Souza.</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=React&message=framework&color=blue&style=for-the-badge&logo=React"/>
+  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=JavaScript&message=linguage&color=yellow&style=for-the-badge&logo=JavaScript"/>
+  <img src="http://img.shields.io/static/v1?label=HTML&message=5&color=red&style=for-the-badge&logo=HTML5"/>
+  <img src="http://img.shields.io/static/v1?label=CSS&message=3&color=blue&style=for-the-badge&logo=CSS3"/>
+  <img src="http://img.shields.io/static/v1?label=Bootstrap&message=Framework&color=blue&style=for-the-badge&logo=Bootstrap"/>
+  <img src="http://img.shields.io/static/v1?label=ReactBootstrap&message=Framework&color=purple&style=for-the-badge&logo=ReactBootstrap"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=green&style=for-the-badge"/>
+</p>
 
-## Available Scripts
+> Status do Projeto: ✔️ Finalizado.
 
-In the project directory, you can run:
+### Tópicos 
 
-### `npm start`
+:small_blue_diamond: [Descrição do Projeto](#descrição-do-projeto)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+:small_blue_diamond: [Funcionalidades](#funcionalidades)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+:small_blue_diamond: [Link para acesso ao site](#link-para-acesso-ao-site-computer)
 
-### `npm test`
+:small_blue_diamond: [Como rodar a Aplicação Web](#como-rodar-a-aplicação-web-computer)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+:small_blue_diamond: [Layout da Aplicação](#layout-da-aplicação-computer)
 
-### `npm run build`
+:small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#linguagens-dependencias-e-libs-utilizadas-books)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+:small_blue_diamond: [Desenvolvedora](#desenvolvedora-octocat)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Descrição do projeto 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="justify">
+Projeto desenvolvido como portifólio pessoal, utilizando as tecnologias React, Bootstrap e JavaScript.
+</p>
+<p></p>
 
-### `npm run eject`
+## Funcionalidades
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+:heavy_check_mark: Apresenta a desenvolvedora. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+:heavy_check_mark: Navegação entre os componentes do site.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+:heavy_check_mark: Carrossel com Skils.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+:heavy_check_mark: Formulário com envio das informações e mensagem para e-mail da desenvolvedora para orçamento de projetos e contatos.
 
-## Learn More
+:heavy_check_mark: Site responsivo permitindo acesso à todos os dispositivos.
+<p></p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Como rodar a Aplicação Web :computer:
+- Para acesso ao site clique no link: [Portifólio](https://portifolio-stephanie.vercel.app/)
+- Ou copie o link https://portifolio-stephanie.vercel.app/
+ <p></p>
+  
+## Como rodar a Aplicação Web :computer:
+> Para instalar as dependências e tecnologias do projeto FrontEnd digite em seu terminal:
+```sh
+cd .\my-portifolio
+```
+```sh
+npm install
+```
+> Para iniciar a aplicação FrontEnd, digite no terminal:
+```sh
+npm start
+```
+<p></p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Layout da Aplicação :computer:
+> Home
+<img src="https://github.com/user-attachments/assets/39b6bc4d-8454-497d-9802-3bd2b84442c1" alt="Home page"/>
 
-### Code Splitting
+> Skills
+<img src="https://github.com/user-attachments/assets/25e8ede3-466c-4964-9077-6a8d533b2025" alt="Skills"/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> Orçamento
+<img src="https://github.com/user-attachments/assets/d29233c2-fca4-483c-9569-732690d31d22" alt="Formulário de orcamento"/>
 
-### Analyzing the Bundle Size
+> Contato
+<img src="https://github.com/user-attachments/assets/8b9ee2f5-1ead-4c7a-bbe9-ffd27c22d78d" alt="Contato"/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> Contato
+<img src="https://github.com/user-attachments/assets/8b9ee2f5-1ead-4c7a-bbe9-ffd27c22d78d" alt="Contato"/>
 
-### Making a Progressive Web App
+## Linguagens, dependencias e libs utilizadas :books:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [React](https://legacy.reactjs.org/docs/getting-started.html)
+- [React Bootstrap](https://react-bootstrap.netlify.app/docs/components/accordion)
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Cors](https://www.npmjs.com/package/cors)
 
-### Advanced Configuration
+## Desenvolvedora :octocat:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Portifolio-stephanie
+[<img src="https://github.com/StephanieSouzaC.png" width=200><br><p>Stephanie Souza</p>](https://www.linkedin.com/in/stephanie-souza-83a18b239/)
