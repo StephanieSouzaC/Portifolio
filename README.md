@@ -7,8 +7,8 @@
   <img src="http://img.shields.io/static/v1?label=JavaScript&message=linguage&color=yellow&style=for-the-badge&logo=JavaScript"/>
   <img src="http://img.shields.io/static/v1?label=HTML&message=5&color=red&style=for-the-badge&logo=HTML5"/>
   <img src="http://img.shields.io/static/v1?label=CSS&message=3&color=blue&style=for-the-badge&logo=CSS3"/>
-  <img src="http://img.shields.io/static/v1?label=Bootstrap&message=Framework&color=blue&style=for-the-badge&logo=Bootstrap"/>
-  <img src="http://img.shields.io/static/v1?label=ReactBootstrap&message=Framework&color=purple&style=for-the-badge&logo=ReactBootstrap"/>
+  <img src="http://img.shields.io/static/v1?label=Bootstrap&message=Framework&color=purple&style=for-the-badge&logo=Bootstrap"/>
+  <img src="http://img.shields.io/static/v1?label=ReactBootstrap&message=Framework&color=blue&style=for-the-badge&logo=ReactBootstrap"/>
   <img src="http://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=green&style=for-the-badge"/>
 </p>
 
