@@ -124,8 +124,7 @@ const Skills = () => {
       <div className='skills__texto-and-links'>
           <div className='skills__texto'>
             <p>
-              Estou sempre em busca de novos desafios e oportunidades para colaborar.
-              Se você tem um projeto em mente, vamos tirá-lo do papel?
+              Para acesso aos meus certificados, projetos, experiências e demais informações, acesse os links abaixo:
             </p>
           </div>
           <div className='skills__link'>
